@@ -1,0 +1,9 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: test
+      schema-action: CREATE_IF_NOT_EXISTS
+
+logging:
+  level:
+    tracer: trace
